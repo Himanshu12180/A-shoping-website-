@@ -5,6 +5,7 @@ import MidBanner from '../Compinet/MidBanner'
 function Home() {
   return (
     <div>
+      
       <Carousel/>
     <MidBanner/>
    
