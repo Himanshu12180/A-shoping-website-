@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { ClerkProvider } from '@clerk/clerk-react'
 import App from './App'
-import { DataProvider } from './context/DataContext';
+ import { DataProvider } from './Context/DataContext'
 import { NewDataProvider } from './Context/NewDataContext';
 import {CartProvider} from './Context/CartContext';
 import { ToastContainer } from 'react-toastify'
