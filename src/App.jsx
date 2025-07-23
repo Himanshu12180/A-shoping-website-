@@ -56,6 +56,7 @@ function App() {
 
   return (
     <>
+      <title>welcome to {process.env.NEXT_PUBLIC_NAME}</title>
       <BrowserRouter>
         <Nevbar
           location={location}
